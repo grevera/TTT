@@ -27,7 +27,7 @@ public class TTT {
      * @return true if there is a winner for either X or O; false otherwise
      */
     public static boolean winner3x5 ( P board[][] ) {
-        //you can assume that you are given a 3x3 board
+        //you can assume that you are given a 3x5 board
         assert board != null && board.length == 3 && board[0].length == 5;
 
         /** @todo add your code here */
@@ -39,8 +39,8 @@ public class TTT {
      * @param board is the game board
      * @return true if there is a winner for either X or O; false otherwise
      */
-    public static boolean winner7x9 ( P board[][] ) {
-        //you can assume that you are given a 3x3 board
+    public static boolean winner9x7 ( P board[][] ) {
+        //you can assume that you are given a 9x7 board
         assert board != null && board.length == 9 && board[0].length == 7;
 
         /** @todo add your code here */
